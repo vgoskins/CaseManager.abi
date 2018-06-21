@@ -1,0 +1,697 @@
+[
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "weiValue",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "unpause",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "dollarValue",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "name": "affiliateBalances",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "paused",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "MAX_WEAR",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "MAX_RESULT_PAGE_SIZE",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint32"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [],
+    "name": "pause",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "owner",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "decommissioned",
+    "outputs": [
+      {
+        "name": "",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "name": "orders",
+    "outputs": [
+      {
+        "name": "userId",
+        "type": "uint64"
+      },
+      {
+        "name": "caseId",
+        "type": "uint32"
+      },
+      {
+        "name": "quantity",
+        "type": "uint32"
+      },
+      {
+        "name": "blockNumber",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "totalAffiliatesBalance",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "MAX_PATTERNS",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint16"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "affiliatesCut",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint8"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "priceAdjuster",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "caseStorage",
+    "outputs": [
+      {
+        "name": "",
+        "type": "address"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "transferOwnership",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "minimumPurchaseQuantity",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint16"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "inputs": [
+      {
+        "name": "_caseStorage",
+        "type": "address"
+      },
+      {
+        "name": "initialDollarValue",
+        "type": "uint256"
+      },
+      {
+        "name": "initialWeiValue",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "constructor"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_by",
+        "type": "address"
+      },
+      {
+        "indexed": false,
+        "name": "_caseId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "_skus",
+        "type": "uint32[]"
+      }
+    ],
+    "name": "NewCase",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": false,
+        "name": "_dollarValue",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "_weiValue",
+        "type": "uint256"
+      }
+    ],
+    "name": "SpotPriceChanged",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "_orderId",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "_blockNumber",
+        "type": "uint256"
+      },
+      {
+        "indexed": false,
+        "name": "_userId",
+        "type": "uint64"
+      },
+      {
+        "indexed": false,
+        "name": "_caseId",
+        "type": "uint32"
+      },
+      {
+        "indexed": false,
+        "name": "_quantity",
+        "type": "uint32"
+      }
+    ],
+    "name": "PurchaseCreated",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [],
+    "name": "Pause",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [],
+    "name": "Unpause",
+    "type": "event"
+  },
+  {
+    "anonymous": false,
+    "inputs": [
+      {
+        "indexed": true,
+        "name": "previousOwner",
+        "type": "address"
+      },
+      {
+        "indexed": true,
+        "name": "newOwner",
+        "type": "address"
+      }
+    ],
+    "name": "OwnershipTransferred",
+    "type": "event"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "weiAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "withdraw",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "weiAmount",
+        "type": "uint256"
+      }
+    ],
+    "name": "affiliateWithdraw",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_decommissioned",
+        "type": "bool"
+      }
+    ],
+    "name": "decommission",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_dollarValue",
+        "type": "uint256"
+      },
+      {
+        "name": "_weiValue",
+        "type": "uint256"
+      }
+    ],
+    "name": "setSpotPrice",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "cutPercentage",
+        "type": "uint8"
+      }
+    ],
+    "name": "setAffiliatesCut",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "quantity",
+        "type": "uint16"
+      }
+    ],
+    "name": "setMinimumPurchaseQuantity",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "userId",
+        "type": "uint64"
+      },
+      {
+        "name": "caseId",
+        "type": "uint32"
+      },
+      {
+        "name": "quantity",
+        "type": "uint32"
+      },
+      {
+        "name": "affiliate",
+        "type": "address"
+      }
+    ],
+    "name": "requestPurchase",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": true,
+    "stateMutability": "payable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "orderId",
+        "type": "uint256"
+      }
+    ],
+    "name": "getOrderDetails",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint64"
+      },
+      {
+        "name": "",
+        "type": "uint32"
+      },
+      {
+        "name": "",
+        "type": "uint32"
+      },
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "orderId",
+        "type": "uint256"
+      },
+      {
+        "name": "blockHash",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getPurchaseResult",
+    "outputs": [
+      {
+        "name": "skus",
+        "type": "uint32[]"
+      },
+      {
+        "name": "wears",
+        "type": "uint64[]"
+      },
+      {
+        "name": "patternIndexes",
+        "type": "uint16[]"
+      },
+      {
+        "name": "nextIndex",
+        "type": "uint32"
+      },
+      {
+        "name": "nextSeed",
+        "type": "bytes32"
+      },
+      {
+        "name": "moreResults",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [
+      {
+        "name": "orderId",
+        "type": "uint256"
+      },
+      {
+        "name": "startIndex",
+        "type": "uint32"
+      },
+      {
+        "name": "startSeed",
+        "type": "bytes32"
+      }
+    ],
+    "name": "getMorePurchaseResult",
+    "outputs": [
+      {
+        "name": "skus",
+        "type": "uint32[]"
+      },
+      {
+        "name": "wears",
+        "type": "uint64[]"
+      },
+      {
+        "name": "patternIndexes",
+        "type": "uint16[]"
+      },
+      {
+        "name": "nextIndex",
+        "type": "uint32"
+      },
+      {
+        "name": "nextSeed",
+        "type": "bytes32"
+      },
+      {
+        "name": "moreResults",
+        "type": "bool"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "caseId",
+        "type": "uint256"
+      },
+      {
+        "name": "skus",
+        "type": "uint32[]"
+      },
+      {
+        "name": "weights",
+        "type": "uint256[]"
+      },
+      {
+        "name": "enabled",
+        "type": "bool"
+      }
+    ],
+    "name": "addCase",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "caseId",
+        "type": "uint256"
+      },
+      {
+        "name": "enabled",
+        "type": "bool"
+      }
+    ],
+    "name": "setCaseEnabled",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  },
+  {
+    "constant": true,
+    "inputs": [],
+    "name": "getCaseCount",
+    "outputs": [
+      {
+        "name": "",
+        "type": "uint256"
+      }
+    ],
+    "payable": false,
+    "stateMutability": "view",
+    "type": "function"
+  },
+  {
+    "constant": false,
+    "inputs": [
+      {
+        "name": "_priceAdjuster",
+        "type": "address"
+      }
+    ],
+    "name": "setPriceAdjuster",
+    "outputs": [],
+    "payable": false,
+    "stateMutability": "nonpayable",
+    "type": "function"
+  }
+]
