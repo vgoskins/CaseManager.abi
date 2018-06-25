@@ -1,3 +1,5 @@
+You must use the private keys for the address you have set as your affiliate address for this guide!
+
 You must have ETH in your affiliate address already send a little bit to your affiliate address, if you do not have any. .02 ETH is enough.
 
 Go here: https://www.myetherwallet.com/#contracts
