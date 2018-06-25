@@ -1,4 +1,4 @@
-You must have ETH in your affiliate address already, send a little bit to your affiliate adress is you do not have any. .02 ETH is enough
+You must have ETH in your affiliate address already send a little bit to your affiliate address, if you do not have any. .02 ETH is enough.
 
 Go here: https://www.myetherwallet.com/#contracts
 
